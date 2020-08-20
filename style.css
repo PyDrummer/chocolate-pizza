@@ -1,0 +1,51 @@
+body {
+  width: 1000px;
+  margin: auto;
+}
+
+header nav {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+header li {
+  display: inline;
+  font-size: 10px;
+}
+
+header li:nth-child(3) {
+  margin-left: 525px;
+}
+
+#best-food {
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  font-size: 12px;
+  margin-left: 55px;
+}
+
+header li:first-child {
+  float: left;
+  margin-left: 0px;
+  margin: auto;
+}
+
+#delicious {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  /* float: left; */
+  padding-left: 15px;
+}
+
+div.gray_line {
+  /* background-color: grey; */
+  background-image: url("./img/hr-img.png");
+  background-repeat: repeat-x repeat-y;
+  width: 900px;
+  height: 25px;
+}
+
+hr {
+  border: 1% solid gray;
+}
