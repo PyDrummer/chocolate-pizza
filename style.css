@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
 body {
   width: 1000px;
   margin: auto;
 }
 
+/* Nav style */
+
 header nav {
-  margin-bottom: 50px;
   margin-top: 50px;
 }
 
@@ -14,7 +17,11 @@ header li {
 }
 
 header li:nth-child(3) {
-  margin-left: 525px;
+  margin-left: 505px;
+}
+
+header li:nth-child(9) {
+  margin-left: 10px;
 }
 
 #best-food {
@@ -43,9 +50,154 @@ div.gray_line {
   background-image: url("./img/hr-img.png");
   background-repeat: repeat-x repeat-y;
   width: 900px;
-  height: 25px;
+  height: 12px;
+  margin-top: 25px;
+}
+
+div.gray_line_2 {
+  background-image: url("./img/hr-img.png");
+  background-repeat: repeat-x repeat-y;
+  width: 900px;
+  height: 12px;
+  margin-top: 40px;
 }
 
 hr {
   border: 1% solid gray;
+}
+
+/* Main style */
+main {
+  margin-top: 50px;
+}
+
+
+main h1 {
+
+  font-weight: bold;
+  font-size: 40px;
+  font-family: system-ui;
+}
+
+main li {
+  display: inline;
+  color: gray;
+  font-size: 11px;
+  font-family: system-ui;
+
+}
+
+main li:nth-child(2) {
+  margin-left: 643px;
+}
+
+#main-pic {
+  margin-top: 30px;
+}
+
+main p {
+  width: 916px;
+  text-indent: 20px;
+  margin-top: 30px;
+  font-family: Georgia, serif;
+  font-size: 17px;
+  color: rgb(89, 85, 85);
+  line-height: 20px;
+}
+
+#check-list {
+  width: 814px;
+  margin-top: 30px;
+  background-image: url("./img/list-bg.png");
+  padding: 44px;
+
+}
+
+#left {
+  float: left;
+  font-family: 'Indie Flower';
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 20px;
+  color: rgb(85, 84, 84);
+}
+
+#chopped {
+  margin-left: 20px;
+}
+
+#right {
+  margin-left: 400px;
+  font-family: 'Indie Flower';
+  font-size: 20px;
+  line-height: 30px;
+  color: rgb(85, 84, 84);
+}
+
+#Vanessa {
+  margin-top: 30px;
+}
+
+section img {
+  float: left;
+}
+
+section h2 {
+  font-weight: bold;
+  margin-left: 20px;
+  float: left;
+  font-size: 20px;
+}
+
+#d {
+  font-size: 16px;
+  font-weight: normal;
+  text-indent: 20px;
+  margin-top: 30px;
+  font-family: Georgia, serif;
+  color: rgb(89, 85, 85);
+  line-height: 20px;
+}
+
+button {
+  position: relative;
+  margin-left: 137px;
+  margin-top: 20px;
+  float: left;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgb(165, 80, 49);
+  color: white;
+  border-style: none;
+}
+
+#line {
+  margin-top: 200px;
+}
+
+footer {
+  margin-bottom: 100px;
+  margin-top: 300px;
+  width: 905px;
+  text-align: center;
+  color: gray;
+}
+
+hr {
+  opacity: 50%;
+  width: 400px;
+  float: left;
+  margin: 20px;
+
+}
+
+#line img {
+  opacity: 50%;
+  float: left;
+}
+
+input[type="checkbox"]:checked{
+ opacity: 50%;
+
 }
